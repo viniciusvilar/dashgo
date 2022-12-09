@@ -45,7 +45,15 @@ const options = {
             '2022-03-24T00:00:00:00.000Z',
         ],
     },
-    
+    fill: {
+        opacity: 0.3,
+        type: 'gradient',
+        gradient: {
+            shade: 'dark',
+            opacityFrom: 0.7,
+            opacityTo: 0.3,
+        }
+    },
 };
 
 const series = [
