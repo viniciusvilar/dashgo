@@ -24,7 +24,9 @@ const options = {
     dataLabels: {
         enabled: false,
     },
-
+    tooltip: {
+        enabled: false,
+    },
 };
 
 const series = [
