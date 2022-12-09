@@ -45,6 +45,7 @@ const options = {
             '2022-03-24T00:00:00:00.000Z',
         ],
     },
+    
 };
 
 const series = [
@@ -64,6 +65,7 @@ export default function Dashboard() {
                         p='8'
                         bg='gray.800'
                         borderRadius={8}
+                        pb='4'
                     >
                         <Text fontSize='lg' mb='4'>Incritos da semana</Text>
                         <Chart options={options} series={series} type='area' height={160} />
@@ -72,8 +74,10 @@ export default function Dashboard() {
                         p='8'
                         bg='gray.800'
                         borderRadius={8}
+                        pb='4'
                     >
                         <Text fontSize='lg' mb='4'>Taxa de abertura</Text>
+                        <Chart options={options} series={series} type='area' height={160} />
                     </Box>
 
                 </SimpleGrid>
