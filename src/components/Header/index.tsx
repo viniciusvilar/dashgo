@@ -23,7 +23,7 @@ export function Header() {
             mx="auto"
             mt="4"
             px="6"
-            align="cente"
+            align="center"
         >
             { !isWideVersion && (
                 <IconButton

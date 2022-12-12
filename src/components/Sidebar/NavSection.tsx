@@ -14,6 +14,6 @@ export function NavSection({title, children} : NavSectionProps) {
             <Stack spacing='4' mt='8' align='stretch'>
                 {children}
             </Stack>
-    </Box>
+        </Box>
     );
 }
