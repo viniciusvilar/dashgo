@@ -76,7 +76,12 @@ export default function Dashboard() {
                         pb='4'
                     >
                         <Text fontSize='lg' mb='4'>Incritos da semana</Text>
-                        <Chart options={options} series={series} type='area' height={160} />
+                        <Chart 
+                            options={options} 
+                            series={series} 
+                            type='area' 
+                            height={160} 
+                        />
                     </Box>
                     <Box
                         p={['6' ,'8']}
